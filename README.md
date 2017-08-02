@@ -46,7 +46,9 @@ compile 'com.cool: elasticdialog:1.0.0'
  
    		elasticDialog.show();  
     
-    
+  ## 有两点需要`注意`：
+* 布局文件dialog_elastic子View需要设置`android:layout_gravity="bottom"`属性
+* 根布局使用`FrameLayout`
 博客地址：
 
 [封装弹性dialog框架,使用只需一行代码](http://www.jianshu.com/p/bc33a0b1ccce)
