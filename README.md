@@ -8,7 +8,7 @@
 如果你是AndroidStudio用户,在build.gradle中添加
 
 ```
-compile 'com.cool: elasticdialog:1.0.0'
+compile 'com.cool:elasticdialog:1.0.0'
 ```
 
 ### 使用
