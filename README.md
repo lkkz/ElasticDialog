@@ -1,9 +1,10 @@
 # ElasticDialog
 一个弹性dialog
 
-#效果图
+# 效果图
 
 ![Image text](img/elastic.gif)
+
 如果你是AndroidStudio用户,在build.gradle中添加
 
 ```
@@ -23,25 +24,24 @@ compile 'com.cool: elasticdialog:1.0.0'
             mRecyclerView = elasticDialog.findViewById(R.id.recyclerview);
         	}
     	}
-    
+
     	
     布局文件dialog_elastic.xml
-    
-    
-  ```
-    <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerview"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_gravity="bottom">
+   
+    	<?xml version="1.0" encoding="utf-8"?>
+		<FrameLayout xmlns:android="http://	schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+    		<android.support.v7.widget.RecyclerView
+        		android:id="@+id/recyclerview"
+        		android:layout_width="match_parent"
+        		android:layout_height="300dp"
+        		android:layout_gravity="bottom">
 
-    </android.support.v7.widget.RecyclerView>
-</FrameLayout>
-```
+    	</android.support.v7.widget.RecyclerView>
+	</FrameLayout>
+
+
 * 调用
  
    		elasticDialog.show();  
