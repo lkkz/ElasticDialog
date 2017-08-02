@@ -35,8 +35,8 @@ public class ElasticDialog extends Dialog {
 
     /**
      * 设置dialog的布局
-     * @param layoutId
-     * @return
+     * @param layoutId 布局layoutId
+     * @return this
      */
     public ElasticDialog layout(int layoutId) {
         view = LayoutInflater.from(mContext).inflate(layoutId, null);
@@ -93,8 +93,8 @@ public class ElasticDialog extends Dialog {
 
     /**
      * 设置达到的弧高
-     * @param arcHight
-     * @return
+     * @param arcHight 弧高
+     * @return this
      */
     public ElasticDialog arcHight(int arcHight) {
         this.mArcHight = dp2px(arcHight);
@@ -103,8 +103,8 @@ public class ElasticDialog extends Dialog {
 
     /**
      * 设置背景动画时间
-     * @param duration
-     * @return
+     * @param duration 动画时间
+     * @return this
      */
     public ElasticDialog duration(long duration) {
         if (duration < 0) {
@@ -115,9 +115,8 @@ public class ElasticDialog extends Dialog {
     }
 
     /**
-     * 弧形背景颜色
-     * @param color
-     * @return
+     * @param color 弧形背景颜色
+     * @return this
      */
     public ElasticDialog arcColor(int color){
         this.arcColor = color;
@@ -125,9 +124,8 @@ public class ElasticDialog extends Dialog {
     }
 
     /**
-     * 是否可取消
-     * @param cancelable
-     * @return
+     * @param cancelable 是否可取消
+     * @return this
      */
     public ElasticDialog cancelable(boolean cancelable){
         setCancelable(cancelable);
